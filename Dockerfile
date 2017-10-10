@@ -1,5 +1,4 @@
 FROM ruby:2.3
-ENV DOC_SERVER_URL="http://external_ip:8080/"
 
 LABEL maintainer="kvazilife@gmail.com"
 ARG build_branch=master
